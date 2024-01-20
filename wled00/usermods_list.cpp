@@ -1,4 +1,5 @@
 #include "wled.h"
+
 /*
  * Register your v2 usermods here!
  *   (for v1 usermods using just usermod.cpp, you can ignore this file)
@@ -10,6 +11,7 @@
  * \/ \/ \/
  */
 //#include "../usermods/EXAMPLE_v2/usermod_v2_example.h"
+#define USERMOD_ANIMATED_STAIRCASE true
 
 #ifdef USERMOD_BATTERY
   #include "../usermods/Battery/usermod_v2_Battery.h"
